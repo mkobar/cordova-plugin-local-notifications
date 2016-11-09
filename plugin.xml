@@ -53,8 +53,9 @@
     <platform name="ios">
 <!--
         <dependency id="de.appplant.cordova.common.registerusernotificationsettings" />
--->
         <dependency id="cordova.plugin.registerusernotificationsettings" />
+-->
+        <dependency id="https://github.com/katzer/cordova-common-registerusernotificationsettings.git" />
 
         <config-file target="config.xml" parent="/*">
             <feature name="LocalNotification">
